@@ -68,6 +68,7 @@ public class DrinkablesMod {
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
             event.accept(ModItems.MONSTER_ENERGY);
             event.accept(ModItems.RED_BULL);
+            event.accept(ModItems.COFFEINE);
         }
     }
 
