@@ -1,5 +1,6 @@
 package net.philo.drinkables;
 
+import net.philo.drinkables.item.ModCreativeModeTabs;
 import net.philo.drinkables.item.ModItems;
 import org.slf4j.Logger;
 
@@ -47,7 +48,7 @@ public class DrinkablesMod {
 
         ModItems.register(modEventBus);
 
-
+        ModCreativeModeTabs.register(modEventBus);
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
@@ -65,11 +66,6 @@ public class DrinkablesMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
-            event.accept(ModItems.MONSTER_ENERGY);
-            event.accept(ModItems.RED_BULL);
-            event.accept(ModItems.COFFEINE);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

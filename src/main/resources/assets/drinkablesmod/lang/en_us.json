@@ -1,4 +1,11 @@
 {
   "item.drinkablesmod.monster_energy": "Monster Energy",
-  "item.drinkablesmod.red_bull": "Red Bull"
+  "item.drinkablesmod.red_bull": "Red Bull",
+  "item.drinkablesmod.aspartam": "Aspartam",
+  "item.drinkablesmod.coffeine": "Coffeine",
+  "item.drinkablesmod.lemon": "Lemon",
+  "item.drinkablesmod.orange": "Orange",
+  "item.drinkablesmod.tea_leaf": "Tea Leaves",
+
+  "creativetab.drinkablesmod.drinkables": "Drinkables Mod"
 }
