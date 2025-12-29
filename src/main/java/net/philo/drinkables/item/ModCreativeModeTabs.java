@@ -33,6 +33,8 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.LEMON_JUICE);
                 output.accept(ModBlocks.JUICER);
                 output.accept(ModItems.MELON_JUICE);
+                output.accept(ModItems.CARROT_JUICE);
+                output.accept(ModItems.BERRY_JUICE);
             }))
             .build());
 

@@ -12,7 +12,11 @@
   "item.drinkablesmod.apple_juice": "Apple Juice",
   "item.drinkablesmod.lemon_juice": "Lemon Juice",
   "item.drinkablesmod.melon_juice": "Melon Juice",
+  "item.drinkablesmod.carrot_juice": "Carrot Juice",
+  "item.drinkablesmod.berry_juice": "Berry Juice",
+
   "block.drinkablesmod.juicer": "Juicer",
+
 
   "creativetab.drinkablesmod.drinkables": "Drinkables Mod"
 }
