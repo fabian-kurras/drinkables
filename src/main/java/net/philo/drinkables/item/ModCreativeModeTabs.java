@@ -25,6 +25,11 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.ORANGE);
                 output.accept(ModItems.LEMON);
                 output.accept(ModItems.TEA_LEAF);
+                output.accept(ModItems.CINNAMON);
+                output.accept(ModItems.Z_FOOD);
+                output.accept(ModItems.ORANGE_JUICE);
+                output.accept(ModItems.APPLE_JUICE);
+                output.accept(ModItems.LEMON_JUICE);
             }))
             .build());
 

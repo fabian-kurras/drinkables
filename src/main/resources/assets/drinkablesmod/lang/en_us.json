@@ -1,11 +1,16 @@
 {
   "item.drinkablesmod.monster_energy": "Minister Energy",
-  "item.drinkablesmod.red_bull": "Red Ball",
+  "item.drinkablesmod.red_bull": "Red Balls",
   "item.drinkablesmod.aspartam": "Aspartam",
   "item.drinkablesmod.coffeine": "Coffeine",
   "item.drinkablesmod.lemon": "Lemon",
   "item.drinkablesmod.orange": "Orange",
   "item.drinkablesmod.tea_leaf": "Tea Leaves",
+  "item.drinkablesmod.cinnamon": "Cinnamon",
+  "item.drinkablesmod.z_food": "Z-Food",
+  "item.drinkablesmod.orange_juice": "Orange Juice",
+  "item.drinkablesmod.apple_juice": "Apple Juice",
+  "item.drinkablesmod.lemon_juice": "Lemon Juice",
 
   "creativetab.drinkablesmod.drinkables": "Drinkables Mod"
 }

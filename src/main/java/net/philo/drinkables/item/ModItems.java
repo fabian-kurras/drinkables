@@ -88,6 +88,11 @@ public class ModItems {
     public static final DeferredItem<Item> MINT_LEAF = ITEMS.register("mint_leaf", () -> new Item(new Properties()));
     public static final DeferredItem<Item> CHAMOMILE = ITEMS.register("chamomile", () -> new Item(new Properties()));
     public static final DeferredItem<Item> TEA_LEAF = ITEMS.register("tea_leaf", () -> new Item(new Properties()));
+    public static final DeferredItem<Item> CINNAMON = ITEMS.register("cinnamon", () -> new Item(new Properties()));
+    public static final DeferredItem<Item> Z_FOOD = ITEMS.register("z_food", () -> new Item(new Properties()));
+    public static final DeferredItem<Item> ORANGE_JUICE = ITEMS.register("orange_juice", () -> new Item(new Properties()));
+    public static final DeferredItem<Item> APPLE_JUICE = ITEMS.register("apple_juice", () -> new Item(new Properties()));
+    public static final DeferredItem<Item> LEMON_JUICE = ITEMS.register("lemon_juice", () -> new Item(new Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
