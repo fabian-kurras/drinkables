@@ -11,6 +11,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.philo.drinkables.item.ModItems;
 
@@ -24,9 +25,24 @@ public class JuicerBlock extends Block {
             ModItems.LEMON, ModItems.LEMON_JUICE
     );
 
-
     public JuicerBlock(Properties properties) {
         super(properties);
+    }
+
+    private void ReturnItem(Level level, ItemEntity itemEntity, BlockPos pos, Item item, Item returnItem) {
+        Item inputItem = itemEntity.getItem().getItem();
+        if (inputItem == item) {
+            itemEntity.setItem(new ItemStack(
+                    returnItem,
+                    itemEntity.getItem().getCount()
+            ));
+
+            level.playSound(null, pos,
+                    SoundEvents.GRINDSTONE_USE,
+                    SoundSource.BLOCKS,
+                    1f, 1f
+            );
+        }
     }
 
     @Override
@@ -57,20 +73,10 @@ public class JuicerBlock extends Block {
                 }
             }
 
-            if (inputItem == Items.APPLE){
-                itemEntity.setItem(new ItemStack(
-                        ModItems.APPLE_JUICE.get(),
-                        itemEntity.getItem().getCount()
-                ));
+            ReturnItem(level, itemEntity, pos, Items.APPLE, ModItems.APPLE_JUICE.get());
+            ReturnItem(level, itemEntity, pos, Items.MELON_SLICE, ModItems.MELON_JUICE.get());
 
-                level.playSound(null, pos,
-                        SoundEvents.GRINDSTONE_USE,
-                        SoundSource.BLOCKS,
-                        1f, 1f
-                );
-            }
+            super.stepOn(level, pos, state, entity);
         }
-
-        super.stepOn(level, pos, state, entity);
     }
 }
