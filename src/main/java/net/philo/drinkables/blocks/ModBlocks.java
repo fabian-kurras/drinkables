@@ -9,6 +9,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.philo.drinkables.DrinkablesMod;
 import net.philo.drinkables.blocks.custom.JuicerBlock;
+import net.philo.drinkables.blocks.custom.MixerBlock;
 import net.philo.drinkables.item.ModItems;
 
 import java.util.function.Supplier;
@@ -19,6 +20,12 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> JUICER = registerBlock("juicer",
             () -> new JuicerBlock(BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+            ));
+
+    public static final DeferredBlock<Block> MIXER = registerBlock("mixer",
+            () -> new MixerBlock(BlockBehaviour.Properties.of()
                     .strength(2f)
                     .requiresCorrectToolForDrops()
             ));

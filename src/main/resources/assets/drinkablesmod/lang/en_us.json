@@ -15,8 +15,9 @@
   "item.drinkablesmod.carrot_juice": "Carrot Juice",
   "item.drinkablesmod.berry_juice": "Berry Juice",
 
-  "block.drinkablesmod.juicer": "Juicer",
 
+  "block.drinkablesmod.juicer": "Juicer",
+  "block.drinkablesmod.mixer": "Mixer",
 
   "creativetab.drinkablesmod.drinkables": "Drinkables Mod"
 }
