@@ -7,6 +7,7 @@ import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.philo.drinkables.DrinkablesMod;
+import net.philo.drinkables.blocks.ModBlocks;
 
 import java.util.function.Supplier;
 
@@ -30,6 +31,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.ORANGE_JUICE);
                 output.accept(ModItems.APPLE_JUICE);
                 output.accept(ModItems.LEMON_JUICE);
+                output.accept(ModBlocks.JUICER);
             }))
             .build());
 

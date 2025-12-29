@@ -1,5 +1,6 @@
 package net.philo.drinkables;
 
+import net.philo.drinkables.blocks.ModBlocks;
 import net.philo.drinkables.item.ModCreativeModeTabs;
 import net.philo.drinkables.item.ModItems;
 import org.slf4j.Logger;
@@ -47,6 +48,7 @@ public class DrinkablesMod {
         modEventBus.addListener(this::commonSetup);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         ModCreativeModeTabs.register(modEventBus);
         // Register ourselves for server and other game events we are interested in.
