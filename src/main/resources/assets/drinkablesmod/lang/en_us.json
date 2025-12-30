@@ -14,7 +14,11 @@
   "item.drinkablesmod.melon_juice": "Melon Juice",
   "item.drinkablesmod.carrot_juice": "Carrot Juice",
   "item.drinkablesmod.berry_juice": "Berry Juice",
-
+  "item.drinkablesmod.water": "Water",
+  "item.drinkablesmod.sparkling_water": "Sparkling Water",
+  "item.drinkablesmod.cola": "Cola",
+  "item.drinkablesmod.limes_lemonade": "Limes Lemonade",
+  "item.drinkablesmod.orange_lemonade": "Orange Lemonade",
 
   "block.drinkablesmod.juicer": "Juicer",
   "block.drinkablesmod.mixer": "Mixer",

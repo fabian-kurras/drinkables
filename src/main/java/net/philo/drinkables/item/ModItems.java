@@ -96,6 +96,11 @@ public class ModItems {
     public static final DeferredItem<Item> MELON_JUICE = ITEMS.register("melon_juice", () -> new Item(new Properties()));
     public static final DeferredItem<Item> CARROT_JUICE = ITEMS.register("carrot_juice", () -> new Item(new Properties()));
     public static final DeferredItem<Item> BERRY_JUICE = ITEMS.register("berry_juice", () -> new Item(new Properties()));
+    public static final DeferredItem<Item> WATER = ITEMS.register("water", () -> new Item(new Properties()));
+    public static final DeferredItem<Item> SPARKLING_WATER = ITEMS.register("sparkling_water", () -> new Item(new Properties()));
+    public static final DeferredItem<Item> COLA = ITEMS.register("cola", () -> new Item(new Properties()));
+    public static final DeferredItem<Item> LIMES_LEMONADE = ITEMS.register("limes_lemonade",() -> new Item(new Properties()));
+    public static final DeferredItem<Item> ORANGE_LEMONADE = ITEMS.register("orange_lemonade",() -> new Item(new Properties()));
 
 
     public static void register(IEventBus eventBus){
