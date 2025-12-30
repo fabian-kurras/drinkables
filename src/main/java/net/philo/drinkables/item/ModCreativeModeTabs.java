@@ -41,7 +41,8 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.COLA);
                 output.accept(ModItems.LIMES_LEMONADE);
                 output.accept(ModItems.ORANGE_LEMONADE);
-
+                output.accept(ModItems.HOT_CHOCOLATE);
+                output.accept(ModItems.HOT_COFFEE);
 
             }))
             .build());

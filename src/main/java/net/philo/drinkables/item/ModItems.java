@@ -101,7 +101,8 @@ public class ModItems {
     public static final DeferredItem<Item> COLA = ITEMS.register("cola", () -> new Item(new Properties()));
     public static final DeferredItem<Item> LIMES_LEMONADE = ITEMS.register("limes_lemonade",() -> new Item(new Properties()));
     public static final DeferredItem<Item> ORANGE_LEMONADE = ITEMS.register("orange_lemonade",() -> new Item(new Properties()));
-
+    public static final DeferredItem<Item> HOT_CHOCOLATE = ITEMS.register("hot_chocolate",() -> new Item(new Properties()));
+    public static final DeferredItem<Item> HOT_COFFEE = ITEMS.register("hot_coffee",() -> new Item(new Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
