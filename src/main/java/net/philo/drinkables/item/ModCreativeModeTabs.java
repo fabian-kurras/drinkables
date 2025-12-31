@@ -2,6 +2,7 @@ package net.philo.drinkables.item;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
@@ -31,8 +32,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.ORANGE_JUICE);
                 output.accept(ModItems.APPLE_JUICE);
                 output.accept(ModItems.LEMON_JUICE);
-                output.accept(ModBlocks.JUICER);
-                output.accept(ModBlocks.MIXER);
+
                 output.accept(ModItems.MELON_JUICE);
                 output.accept(ModItems.CARROT_JUICE);
                 output.accept(ModItems.BERRY_JUICE);
@@ -43,6 +43,24 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.ORANGE_LEMONADE);
                 output.accept(ModItems.HOT_CHOCOLATE);
                 output.accept(ModItems.HOT_COFFEE);
+                output.accept(ModItems.GLOWBERRIE_JUICE);
+                output.accept(ModItems.LIME);
+                output.accept(ModItems.GRAPE);
+                output.accept(ModItems.GRAPE_JUICE);
+                output.accept(ModItems.LIME_JUICE);
+
+            }))
+            .build());
+
+    public static final Supplier<CreativeModeTab> DRINKABLES_BLOCKS_TAB = CREATIVE_MODE_TAB.register("drinkables_mod_tab", () -> CreativeModeTab.builder()
+            .icon(() -> new ItemStack(ModBlocks.MIXER.get()))
+            .title(Component.translatable("creativetab.drinkablesmod.drinkablesblocks"))
+            .withTabsBefore(ResourceLocation.fromNamespaceAndPath(DrinkablesMod.MODID, "drinkables_tab"))
+            .displayItems(((itemDisplayParameters, output) -> {
+
+                    output.accept(ModBlocks.JUICER);
+                    output.accept(ModBlocks.MIXER);
+
 
             }))
             .build());

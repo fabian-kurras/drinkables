@@ -17,13 +17,20 @@
   "item.drinkablesmod.water": "Water",
   "item.drinkablesmod.sparkling_water": "Sparkling Water",
   "item.drinkablesmod.cola": "Cola",
-  "item.drinkablesmod.limes_lemonade": "Limes Lemonade",
+  "item.drinkablesmod.limes_lemonade": "Lime Lemonade",
   "item.drinkablesmod.orange_lemonade": "Orange Lemonade",
   "item.drinkablesmod.hot_chocolate": "Hot Chocolate",
   "item.drinkablesmod.hot_coffee": "Hot Coffee",
+  "item.drinkablesmod.glowberrie_juice": "Glowberry Juice",
+  "item.drinkablesmod.lime": "Lime",
+  "item.drinkablesmod.grape": "Grape",
+  "item.drinkablesmod.grape_juice": "Grape Juice",
+  "item.drinkablesmod.lime_juice": "Lime Juice",
+
 
   "block.drinkablesmod.juicer": "Juicer",
   "block.drinkablesmod.mixer": "Mixer",
 
-  "creativetab.drinkablesmod.drinkables": "Drinkables Mod"
+  "creativetab.drinkablesmod.drinkables": "Drinkables Mod",
+  "creativetab.drinkablesmod.drinkablesblocks": "Drinkables Mod Blocks"
 }
