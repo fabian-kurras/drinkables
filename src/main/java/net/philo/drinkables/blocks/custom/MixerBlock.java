@@ -51,7 +51,7 @@ public class MixerBlock extends Block {
             if (itemB == itemA) continue;
 
             //ReturnItemMixed is the "crafting" recipe definition for the mixer (first 4 args never change)
-            ReturnItemMixed(level, pos, itemA, itemB, Items.SWEET_BERRIES, Items.SUGAR, ModItems.COFFEINE.get());
+            ReturnItemMixed(level, pos, itemA, itemB, Items.SWEET_BERRIES, Items.SUGAR, ModItems.CAFFEINE.get());
             ReturnItemMixed(level, pos, itemA, itemB, Items.SUGAR, ModItems.ORANGE_JUICE.get(),ModItems.ORANGE_LEMONADE.get());
 
         }

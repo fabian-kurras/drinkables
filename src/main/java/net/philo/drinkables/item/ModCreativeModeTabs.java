@@ -22,8 +22,8 @@ public class ModCreativeModeTabs {
             .displayItems(((itemDisplayParameters, output) -> {
                 output.accept(ModItems.MONSTER_ENERGY);
                 output.accept(ModItems.RED_BULL);
-                output.accept(ModItems.COFFEINE);
-                output.accept(ModItems.ASPARTAM);
+                output.accept(ModItems.CAFFEINE);
+                output.accept(ModItems.ASPARTAME);
                 output.accept(ModItems.ORANGE);
                 output.accept(ModItems.LEMON);
                 output.accept(ModItems.TEA_LEAF);
@@ -32,7 +32,6 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.ORANGE_JUICE);
                 output.accept(ModItems.APPLE_JUICE);
                 output.accept(ModItems.LEMON_JUICE);
-
                 output.accept(ModItems.MELON_JUICE);
                 output.accept(ModItems.CARROT_JUICE);
                 output.accept(ModItems.BERRY_JUICE);
